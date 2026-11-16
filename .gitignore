@@ -1,0 +1,32 @@
+# Build trees
+build/
+cmake-build-*/
+out/
+
+# Compiled objects / binaries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+ses
+*.out
+
+# CMake / IDE
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+.idea/
+.vscode/
+*.user
+*.code-workspace
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*~
+*.swp
